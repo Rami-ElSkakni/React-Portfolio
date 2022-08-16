@@ -1,0 +1,27 @@
+
+.header {
+    width: 50%;
+    box-shadow: rgba(137, 179, 173, 0.35) 0px 5px 15px;
+}
+
+.langauges {
+    border-radius: 12px;
+    background-color: #81E6D9;
+    padding: .4rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+.anchor,.anchor:hover, .anchor:active  {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 992px) {
+    .projectItem {
+        flex: 1;
+    }
+    .header {
+        width: 80%;
+    }
+}

@@ -1,0 +1,80 @@
+.link {
+    padding-left: 2rem;
+    color: #60A29B;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline;
+    width: max-content;
+}
+
+.link:hover {
+    color: #FFF;
+}
+
+.profileimg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.profileimg:hover {
+    width: 150px;
+    height: 150px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #81E6D9;
+}
+
+
+.socials:hover {
+    padding: .5rem;
+    background-color: #a8d9d2f5;
+    display: inline-block;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.header {
+    width: 50%;
+    box-shadow: rgba(137, 179, 173, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 992px) {
+    .card {
+       flex: 1;
+       width: 100%;
+    }
+
+    .header {
+        width: 80%;
+        
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: center;
+    }
+    .name {
+        text-align: center;
+    }
+    
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .description {
+        min-width: 300px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}

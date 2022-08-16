@@ -1,0 +1,35 @@
+
+.card {
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: #313134;
+    text-align: center;
+    height: 300px;
+    min-width: 300px;
+    box-shadow: rgba(137, 179, 173, 0.25) 0px 54px 55px, rgba(137, 179, 173, 0.12) 0px -12px 30px, rgba(137, 179, 173, 0.12) 0px 4px 6px, rgba(137, 179, 173, 0.17) 0px 12px 13px, rgba(137, 179, 173, 0.09) 0px -3px 5px;
+}
+
+.card:last-child {
+    margin-bottom: 2rem;
+}
+
+
+.header {
+    width: 50%;
+    box-shadow: rgba(137, 179, 173, 0.35) 0px 5px 15px;
+}
+
+svg {
+    color: #81E6D9;
+}
+
+@media (max-width: 992px) {
+    .card {
+       flex: 1;
+       width: 100%;
+    }
+
+    .header {
+        width: 80%;
+    }
+}

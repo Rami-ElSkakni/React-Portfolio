@@ -1,0 +1,10 @@
+body {
+    background-color: #202023 !important;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
