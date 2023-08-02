@@ -44,12 +44,15 @@ export default function Biography() {
             Work
           </h3>
           <p className={`text-white ${classes.description}`}>
-            From when I were a teenager I was interested in Web development,
-            especially the front side of it since I prefer visuals and instantly
-            seeing the changes that I am doing. I'm currently doing an
-            internship that is teaching me new things and allowing me to sharpen
-            my skills. After it, I would like to graduate from Computer Science
-            and start my career.
+            A skilled full-stack developer with a strong background in React and
+            React Native. I have experience building responsive and
+            user-friendly websites, and am well-versed in the latest web
+            development technologies. I am highly motivated and dedicated to my
+            craft, always looking for new ways to improve my skills and stay
+            up-to-date with industry trends. I am now seeking a challenging and
+            rewarding role as a full-stack developer, where I can use my skills
+            and experience to contribute to the success of a forward-thinking
+            company.
           </p>
           <div className="text-center">
             <Link to="/projects">
