@@ -12,9 +12,39 @@
     margin-top: 1rem;
 }
 
-.anchor,.anchor:hover, .anchor:active  {
+.anchor,.anchor:hover  {
     text-decoration: none;
     color: black;
+}
+
+.whiteAnchor {
+    color: white;
+}
+
+/* .btnFlex {
+    display: flex;
+    gap: 1em;
+} */
+
+
+
+.button {
+    background-color: #d62740;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: .5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.gap {
+    margin-left: 1em;
+}
+
+
+.button:hover {
+    transform: translateY(-5px);
 }
 
 @media (max-width: 992px) {

@@ -2,9 +2,14 @@
     background-color: #81E6D9;
     color: black;
     border: none;
-    padding: .8rem;
+    padding: .5rem;
     border-radius: 8px;
     margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.demo {
+    background-color: red;
 }
 
 .button:hover {

@@ -32,7 +32,7 @@ function NavbarHeader() {
             <Link to="/contact" className={classes.navLinkItem} onClick={() => setExpanded(false)}>
               Contact
             </Link>
-            <a href="Rami_ElSkakini.pdf" download="Rami_ElSkakini" className={classes.navLinkCV}>Download My CV</a>
+            <a href="RamiElSkakini-CV.pdf" download="RamiElSkakini-CV" className={classes.navLinkCV}>Download My CV</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

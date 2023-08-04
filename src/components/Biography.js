@@ -13,7 +13,7 @@ export default function Biography() {
         style={{ backgroundColor: "#313134" }}
       >
         <h1 className="text-white fs-6 text text-center">
-          Hello! I am a Web Developer in the making!
+          Hello! I am a Fullstack developer with experience in the MERN stack
         </h1>
       </header>
       <div className={`mt-5 ${classes.container}`}>
@@ -25,7 +25,7 @@ export default function Biography() {
               Rami Sakakini
             </h2>
             <p className={`text-white ${classes.name}`}>
-              Web Developer/ Web Designer
+              Web Developer/ App Developer
             </p>
           </div>
           <div>
@@ -80,17 +80,35 @@ export default function Biography() {
           </h3>
           <div className="d-flex flex-column">
             <p className="text-white fw-light">
-              <span className="pe-4 fw-bold">2020</span> Graduated From Houssam
-              Eddine El Hariri High School
-            </p>
-            <p className="text-white fw-light">
-              <span className="pe-4 fw-bold">2020 - present</span>Studying
+              <span className="pe-4 fw-bold">Sep. 2020 - May 2023</span>Bsc. in
               Computer Science at BAU
             </p>
             <p className="text-white fw-light">
-              <span className="pe-4 fw-bold">2022 - Summer</span>Internship at
+              <span className="pe-4 fw-bold">June 2022 - Aug. 2022</span>Internship at
               Go.Media
             </p>
+            <p className="text-white fw-light">
+              <span className="pe-4 fw-bold">June 2023 - Aug. 2023</span>Internship at CME
+            </p>
+          </div>
+          <div className="text-center">
+            <Link to="/skills">
+              <Button>
+                My Skills
+                <svg
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  className="chakra-icon css-onkibi"
+                  aria-hidden="true"
+                  style={{ width: "1em", height: "1em", color: "black" }}
+                >
+                  <path
+                    fill="currentColor"
+                    d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  ></path>
+                </svg>
+              </Button>
+            </Link>
           </div>
         </section>
         <section>

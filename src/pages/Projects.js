@@ -12,7 +12,8 @@ const ProjectItems = [
       "This project is a fully functional food app where the customer can add food to his cart, edit them, and submit his order. All the meal items are on a backend firebase and are fetched from the database.",
     imageName: "FoodApp",
     languages: ["ReactJS", "Firebase"],
-    url: "https://github.com/Rami-ElSkakni/React-Food-App",
+    url: "https://github.com/Rami-ElSkakni/React-foodApp",
+    websiteUrl: "https://rami-foodapp.netlify.app"
   },
   {
     id: "p2",
@@ -22,6 +23,7 @@ const ProjectItems = [
     imageName: "shoppingcart",
     languages: ["ReactJS", "Firebase", "Bootstrap"],
     url: "https://github.com/Rami-ElSkakni/React--Shopping-Cart",
+    websiteUrl: ""
   },
   {
     id: "p3",
@@ -31,6 +33,7 @@ const ProjectItems = [
     imageName: "clothingSite",
     languages: ["Javascript", "PHP", "MySQL"],
     url: "https://github.com/Rami-ElSkakni/Clothing-Front-End-Website",
+    websiteUrl: ""
   },
   {
     id: "p4",
@@ -40,6 +43,7 @@ const ProjectItems = [
     imageName: "MovieDatabase",
     languages: ["Javascript", "PHP", "MySQL"],
     url: "https://github.com/Rami-ElSkakni/DataBase-Frontend-Project",
+    websiteUrl: ""
   },
 ];
 
@@ -67,6 +71,7 @@ export default function Projects() {
                 imageName={items.imageName}
                 languages={items.languages}
                 url={items.url}
+                websiteUrl={items.websiteUrl}
               />
             );
           })}

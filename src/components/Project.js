@@ -27,7 +27,10 @@ function Project(props) {
               </div>
             ))}
           </Card.Text>
-          <Button><a href={props.url} className={classes.anchor}>View Project</a></Button>
+          <div className={classes.btnFlex}>
+          <Button><a href={props.url} className={classes.anchor}>View Code</a></Button>
+          {props.websiteUrl !== "" && <button className={`${classes.button} ${classes.gap}`}><a href={props.websiteUrl} className={`${classes.anchor} ${classes.whiteAnchor}`}>View Demo</a></button>}
+          </div>
         </Card.Body>
       </Card>
     </div>
